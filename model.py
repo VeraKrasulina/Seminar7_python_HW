@@ -20,8 +20,7 @@ def new_add_to_base (headers, new_user):
     return inner_db
 
 def op_file_name ():
-    file_name = str(input('Введите имя файла (без расширения, добавится автоматически): '))
-    file_name += '.csv'
+    file_name = str(input('Введите имя файла (с расширением .csv): '))
     return file_name
 
 #export to file, converting to nested dictionary 1st
